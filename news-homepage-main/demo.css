@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+}
+
+/* media   */
+/* it is used to write css code that applies to that page based on the screen size */
+
+/* small devices */
+@media (max-width: 600px){
+    body{
+        background-color: red;
+    }
+
+}
+
+/* media devices i.e tablets 768px and up*/
+@media (min-width: 768px) and (max-width: 991px){
+    body{
+        background-color: blue;
+    }
+}
+
+
+/* Desktop first */
+/* Mobile firxt */
